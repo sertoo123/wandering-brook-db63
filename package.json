@@ -15,7 +15,7 @@
     "start:dev": "cross-env NODE_ENV=development tsx watch packages/server/src/server.ts",
     "start:addon:dev": "pnpm run start:dev",
     "start:frontend:dev": "pnpm -F frontend run dev",
-    "deploy:cloudflare-worker": "npx wrangler publish"
+    "deploy:cloudflare-worker": "npx wrangler deploy"
   },
   "author": "Viren070",
   "license": "MIT",
